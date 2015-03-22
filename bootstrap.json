@@ -1,0 +1,73 @@
+{
+    "after-scripts": [
+        "./scripts/set_computer_name.sh",
+        "./scripts/enable_trim.sh",
+        "brew linkapps",
+        "./scripts/node_packages.sh",
+        "./scripts/restart_apps.sh"
+    ],
+    "casks": [
+        "adobe-creative-cloud",
+        "alfred",
+        "bettertouchtool",
+        "caffeine",
+        "diffmerge",
+        "dropbox",
+        "easyfind",
+        "firefox",
+        "flash",
+        "flux",
+        "github",
+        "iterm2",
+        "libreoffice",
+        "limechat",
+        "postgres",
+        "sourcetree",
+        "spectacle",
+        "steam",
+        "sublime-text",
+        "transmission"
+    ],
+    "formulas": [
+        "ack",
+        "apple-gcc42",
+        "autoconf",
+        "bash",
+        "brew-cask",
+        "chruby",
+        "curl",
+        "elixir",
+        "ffmpeg",
+        "fontconfig",
+        "fortune",
+        "freetype",
+        "gifsicle",
+        "git",
+        "glib",
+        "go",
+        "grep",
+        "hugo",
+        "imagemagick",
+        "lame",
+        "lua",
+        "mongodb",
+        "node",
+        "openssh",
+        "openssl",
+        "python",
+        "rsync",
+        "ruby-install",
+        "sqlite",
+        "tmux",
+        "wget",
+        "x264"
+    ],
+    "symlinks": {
+        "bash/.*": "~",
+        "git/*": "~"
+    },
+    "taps": [
+        "caskroom/cask",
+        "homebrew/dupes"
+    ]
+}

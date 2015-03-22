@@ -1,0 +1,17 @@
+{
+	"com.apple.finder": {
+		"CreateDesktop": 0,
+		"QuitMenuItem": 1,
+		"AppleShowAllFiles": 1,
+		"_FXShowPosixPathInTitle": 1,
+		"ShowPathBar": 1,
+		"ShowStatusBar": 1,
+		"PathBarRootAtHome": 1,
+		"FXPreferredViewStyle": "Nlsv"
+	},
+    "com.apple.dock": {
+    	"autohide": 1,
+        "orientation": "left",
+        "tilesize": 64
+    }
+}
